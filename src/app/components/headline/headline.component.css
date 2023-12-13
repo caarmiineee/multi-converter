@@ -1,0 +1,133 @@
+.headline,
+.headline * {
+  box-sizing: border-box;
+}
+.headline {
+  background: var(--color-surface-surface-background, #171023);
+  padding: 96px 112px 96px 112px;
+  display: flex;
+  flex-direction: row;
+  gap: 136px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 592px;
+  position: relative;
+}
+.hi-i-m-lina {
+  color: var(
+    --brand-gradient-horizontal,
+    linear-gradient(
+      90deg,
+      rgba(153, 85, 232, 1) 0%,
+      rgba(123, 255, 175, 1) 100%
+    )
+  );
+  text-align: left;
+  font: var(--hs-desktop, 400 40px/56px "Kalam-Regular", sans-serif);
+  position: relative;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.full-stack-developer-and-innovation-enthusiast {
+  color: var(--color-text-text-primary, #f5f6f6);
+  text-align: left;
+  font: var(--h-2-desktop, 500 24px/32px "Heebo-Medium", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.over-4-years-of-experience-in-the-tech-industry-i-specialize-in-building-innovative-web-and-mobile-applications-using-technologies-such-as-react-react-native-and-node-js {
+  color: var(--color-text-text-secondary, #cdd0d4);
+  text-align: left;
+  font: 400 16px/24px "Heebo-Regular", sans-serif;
+  position: relative;
+  align-self: stretch;
+}
+.cta {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.button {
+  background: var(--color-surface-surface-secondary, #413a4f);
+  border-radius: 8px;
+  padding: 16px 24px 16px 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  min-width: 112px;
+  position: relative;
+}
+.read-cv-logo {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.label {
+  color: var(--color-text-text-primary, #f5f6f6);
+  text-align: center;
+  font: 500 16px/24px "Heebo-Medium", sans-serif;
+  position: relative;
+  flex: 1;
+}
+.button2 {
+  background: var(--color-surface-button-primary-default, #8a42db);
+  border-radius: 8px;
+  padding: 16px 24px 16px 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  min-width: 112px;
+  position: relative;
+}
+.label2 {
+  color: var(--color-text-primary-button-label, #f5f6f6);
+  text-align: center;
+  font: 500 16px/24px "Heebo-Medium", sans-serif;
+  position: relative;
+  flex: 1;
+}
+.arrow-right {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.code-typing-bro {
+  flex-shrink: 0;
+  width: 488px;
+  height: 417px;
+  position: relative;
+  overflow: visible;
+}
